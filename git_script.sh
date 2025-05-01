@@ -24,3 +24,11 @@ git add -A
 git commit -m "r0"
 git tag r0
 git push -u origin main
+
+#r1 (blue-froggo)
+unzip -o commits/commit1.zip -d src
+git add .
+git checkout -B "r0>r1"
+git commit -m "r1"
+git tag r1
+git push -u origin main

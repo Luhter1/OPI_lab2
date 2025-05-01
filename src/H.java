@@ -19,4 +19,8 @@ public class H implements A {
     public int ae() {
         return java.lang.Math.abs(-6);
     }
+
+    public long ac() {
+        return 222;
+    }
 }

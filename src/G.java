@@ -19,4 +19,8 @@ public class G implements I {
     public java.util.Random mm() {
         return new java.util.Random();
     }
+
+    public Object gg() {
+        return new java.util.Random();
+    }
 }
